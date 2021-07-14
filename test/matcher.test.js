@@ -2,7 +2,7 @@
  * @Author: 石头
  * @Date: 2021-07-12 11:24:39
  * @LastEditors: 石头
- * @LastEditTime: 2021-07-12 14:50:55
+ * @LastEditTime: 2021-07-12 15:52:07
  * @Description: 匹配器
  */
 
@@ -103,4 +103,5 @@ const throwNewErrorFunc = () => {
 }
 test('抛出异常', () => {
     expect(throwNewErrorFunc).toThrow('这是一个异常');
+    
 });
